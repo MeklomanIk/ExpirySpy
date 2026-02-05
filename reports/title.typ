@@ -25,14 +25,14 @@
   set par(spacing: 1.5em)
   // Отступы и размеры страницы
   set page(width: 210mm, height: 297mm, margin: (top: 20mm, bottom: 20mm, left: 30mm, right: 15mm))
-  // Уентрирование по умолчанию
+  // Центрирование по умолчанию
   align(center)[
 
-  //// Вёрстка страницы
-  // Университет и кафедра
-  #university
+    //// Вёрстка страницы
+    // Университет и кафедра
+    #university
 
-  #department]
+    #department]
 
   v(1fr)
 
@@ -98,7 +98,5 @@
   doc
 }
 
-// Вызов c именованными аргументами
-#titlePage(doc: "Содержимое документа")
 
 
